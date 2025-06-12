@@ -1,0 +1,21 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.msg_header{
+    display: flex;
+    justify-content: center;
+
+}
+.section_header{
+    background-image:url(./assets/fondoheader.jpg);
+    height: 30em;
+}
+.content-fill{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    size: 100vw;
+}
