@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto reto</title>
+    <link rel="stylesheet" href="CSS/contacto.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="texto-contacto">
+            <h1 class="no-margin titulo">Contacto</h1>
+            <p class="no-margin texto">Si tienes consultas sobre eventos u oportunidades de prensa, no dudes en comunicarte con nosotros aquí. Si te gustaría recibir asesoramiento individual, puedes <a href="#">programar una consulta gratuita</a> ahora.</p>
+        </div>
+        <div class="formulario">
+            <fieldset class="nombres" id="nombre">
+                <legend id="nombre">    
+                    <div class="titulo-nombre">
+                        <div class="letras-nombre">
+                            <span>Nombre</span>
+                            <span class="obligatorio">(obligatorio)</span>
+                        </div>
+                    </div>
+                </legend>
+                <div class="primer-nombre">
+                    <label for="nombre">
+                        <div class="label-nombre">
+                            <div class="nombre">
+                                Nombre
+                            </div>
+                        </div>
+                    </label>
+                    <input type="text" 
+                    aria-invalid="false"
+                    aria-required="true"
+                    autocomplete="given-name"
+                    id="nombre"
+                    class="input-name">
+                    <span class="input-name-style" aria-hidden="true"></span>
+                </div>
+                <div class="apellido">
+                    <label for="apellido">
+                        <div class="label-apellido">
+                            <div class="apellido">
+                                Apellido
+                            </div>
+                        </div>
+                    </label>
+                    <input type="text" 
+                    aria-invalid="false"
+                    aria-required="true"
+                    autocomplete="given-name"
+                    id="apellido"
+                    class="input-last-name">
+                    <span class="input-last-name-style" aria-hidden="true"></span>
+                </div>
+            </fieldset>
+            <div class="contenedor-correo" id="email">
+                <label for="email" class="label-correo">
+                    <div class="titulo-correo">
+                        <div class="letras-correo">
+                            <span>Correo electrónico</span>
+                            <span class="obligatorio">(obligatorio)</span>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
