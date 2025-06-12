@@ -144,6 +144,7 @@ hr{
 
 .skin-care {
     grid-column: 1;
+
 }
 
 .salmon {
@@ -163,6 +164,6 @@ hr{
 }
 #recipres img{
     width: 100%;
-    height: 0%;
+    height: 100%;
     object-fit: cover;
 }
