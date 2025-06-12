@@ -1,6 +1,151 @@
+@font-face {
+  font-family: minerva-modern;
+  src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+}
+
 *{
     background-color: hsl(204deg 8.93% 78.04%);
-    #ededed
-    #b7b7b7
-    #a9a9a9
+    color: #000000  ;
+    font-family: minerva-modern;
+}
+
+
+.contenedor-principal{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 4vw 12vw;
+}
+.no-margin{
+    margin: 0;
+}
+.texto-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 25vw;
+}
+.texto-contacto h1{
+    font-size: 3rem;
+}
+.texto-contacto p{
+    font-size: 1.2rem;
+}
+.letras-nombre{
+    font-size: 1.2em ;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.obligatorio{
+    color: #00000089;
+}
+.nombres {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+input{
+    background-color: hsl(0deg 0% 98.04%);
+    border: none;
+    outline: none   ;
+
+}
+#nombre{
+    font-size: 1.05em;
+    margin-bottom: 1.4rem;
+}
+.nombre{
+    width: 50%;
+    box-sizing: border-box ;
+    border-color: hsl(204deg 8.93% 78.04%) ;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+.primer-nombre{
+    width: 50%;
+}
+.input-name{
+    width: 100%;
+    height: 80%;
+
+}
+.apellido{
+    width: 50%;
+}
+.contenedor-correo{
+    width: 100%;
+
+}
+.input-email{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2rem;
+}
+.contenedor-asunto{
+    width: 100%;
+}
+.input-asunto{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    margin-bottom: 2rem;
+}
+textarea{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-bottom: 4rem;
+}
+.checkbox{
+    width: 100%;
+    border-style: none;
+}
+.option{
+    width: 100%;
+
+}
+.checkbox-style{
+    width: 3rem;
+}
+.titulo span{
+    font-size: 1.3em;
+}
+.opciones span{
+    font-size: 1.15em;
+}
+input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+        margin-right: 1rem;
+        border: none;
+        outline: none;
+
+}
+.boton{
+    background-color: #000000;
+    padding: 1.2rem 2rem;
+
+}
+
+.texto-boton{
+    background-color: #000000;
+    color: #fff;
+}
+
+input:hover{
+    background-color:#ffffff8f ;
+}
+textarea:hover{
+    background-color:#ffffff8f ;
 }

@@ -51,7 +51,7 @@
                     aria-required="true"
                     autocomplete="given-name"
                     id="apellido"
-                    class="input-last-name">
+                    class="input-name">
                     <span class="input-last-name-style" aria-hidden="true"></span>
                 </div>
             </fieldset>
@@ -64,10 +64,93 @@
                         </div>
                     </div>
                 </label>
+                <input type="email"
+                    aria-invalid="false"
+                    aria-required="true"
+                    autocomplete="false"
+                    placeholder type="email"
+                    id="apellido"
+                    class="input-email">
+                    <span class="input-email-style" aria-hidden="true"></span>
+                    
+            </div>
+            <div class="contenedo-asunto" id="asunto">
+                <label for="asunto" class="label-asunto">
+                    <div class="titulo-asunto">
+                        <div class="letras-asunto">
+                            <span>Asunto</span>
+                            <span class="obligatorio">(obligatorio)</span>
+                        </div>
+                    </div>
+                </label>    
+                <input type="text"
+                    aria-invalid="false"
+                    aria-required="true"
+                    autocomplete="false"
+                    placeholder type="text"
+                    id="asunto"
+                    class="input-asunto">
+                    <span class="input-asunto-style" aria-hidden="true"></span>
+                    
+            </div>
+            <div class="contenedor-mensaje" id="mensaje">
+                <label for="mensaje" class="label-mensaje">
+                    <div class="titulo-mensaje">
+                        <div class="letras-mensaje">
+                            <span>Mensaje</span>
+                            <span class="obligatorio">(obligatorio)</span>
+                        </div>
+                    </div>
+                </label>
+                <textarea  id="mensaje" aria-invalid="false" class="mensaje-textarea"></textarea>
+                 <span class="input-mensaje-style" aria-hidden="true"></span>
+
+                    
+            </div>
+            <fieldset class="checkbox">
+                <legend>
+                    <div class="titulo">
+                        <span>Consulta sobre</span>   
+                    </div>
+                </legend>
+                <div class="option">
+                    <label  class="opciones">
+                        <input type="checkbox" class="checkbox-style"
+                        value="Servicios">
+                        <span>Servicios</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label  class="opciones">
+                        <input type="checkbox" class="checkbox-style"
+                        value="Eventos corportativos">
+                        <span>Eventos corportativos</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label  class="opciones">
+                        <input type="checkbox" class="checkbox-style"
+                        value="Eventos grupales">
+                        <span>Eventos grupales</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label  class="opciones">
+                        <input type="checkbox" class="checkbox-style"
+                        value="Oportunidad de prensa">
+                        <span>Oportunidad de prensa</span>
+                    </label>
+                </div>
+            </fieldset>
+            <div class="contenedor-boton">
+                <button type="submit" class="boton">
+                    <span class="texto-boton">Enviar</span>
+                </button>
             </div>
 
 
         </div>
+
     </div>
 
     
