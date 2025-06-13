@@ -16,6 +16,17 @@ body {
     margin: 0 auto;
 }
 
+#letters{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    height: 25rem;
+    background-color: var(--bg-color);
+    color: var(--text-color)
+}
+
+
 main {
     display: flex;
     flex-flow: column wrap;
