@@ -26,6 +26,10 @@ body {
     color: var(--text-color)
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/home
 main {
     display: flex;
     flex-flow: column wrap;
