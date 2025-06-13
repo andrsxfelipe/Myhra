@@ -86,7 +86,7 @@ hr{
     width: 400.6px;
 }
 
-/* SERVICIOS 2 TERCEREA SECCION */
+/* SERVICIOS 3 TERCERA SECCION */
 .servicios3{
     padding: 100px;
     display: flex;
@@ -96,7 +96,35 @@ hr{
     width: 283px;
     height: 340px;
 }
+
 .div1s3{
-    width: 400.6px;
-    margin-top: 50px;
+    margin-top: 55px;
+    
 }
+.div1s3 h3{
+    margin-top: 2vh;
+    margin-bottom: 11vh;
+}
+
+.div1s3>div{
+    border-bottom: 1px solid black;
+    margin-bottom: 4vw;
+}
+
+/* SERVICIOS 4 CUARTA SECCION */
+
+.servicios4{
+    background-image: url(./assets/fondo1.jpg);
+    width: 1839px;
+    height: 685.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    text-align: center;
+    color: aliceblue;
+}
+.servicios4 p{
+    margin-top: 20px;
+}
+
